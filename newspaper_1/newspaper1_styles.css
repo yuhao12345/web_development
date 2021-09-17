@@ -1,0 +1,62 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+header{
+    width:33%;
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+header img{
+    width:100%
+}
+
+toolbar{
+    width:33%;
+    display:flex;
+    flex-wrap: wrap;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+button{
+    border: none;
+    background: none;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 0.2em;
+}
+
+.container{
+    display:flex;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+section{
+    border-right: solid 3px gray;
+    width:33%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.section_2{
+    padding-top: 0px;
+}
+
+div{
+    text-align: center;
+}
+
+.photo{
+    width: 100%;
+    box-shadow: 8px 8px 10px gray;
+    
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>stocks</title>
+        <script src="stocks.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="stocks.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body class="mt-5">
+        <h1 class="text-center">Stock portfolio</h1>
+
+        <hr>
+
+        <div>
+            <h2 class="mt-4">Total portfolio value</h2>
+            <h3 class="totalValue">$0.00</h3>
+        </div>
+
+        <hr>
+
+        <h2 class="mt-4">Add stocks</h2>
+        <form class="row g-3 mb-3">
+            <div class="col-auto">
+                <input type="text" value="" id="new_stock" placeholder="Enter company">
+            </div>
+            
+            <div class="col-auto">
+                <input type="number" value="" id="num_stock" placeholder="Enter number of shares">
+            </div>
+        </form>
+
+        <button type="submit" class="btn btn-primary mb-2" id="addButton">Confirm adding</button>
+
+        <hr>
+
+        <h2 class="mt-4">Current Stock List</h2>
+
+        <table class="table table-striped stockList">
+            <thead class="thead-light">
+                <tr>
+                    <th  scope="col" onclick="handleSort(0)">Symbol</th>
+                    <th  scope="col" onclick="handleSort(1)">Shares</th>
+                    <th  scope="col" onclick="handleSort(2)">Unit Price ($)</th>
+                    <th  scope="col" onclick="handleSort(3)">Total ($)</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+            </tbody>
+        </table>
+
+        
+        <hr>
+
+        <h2 class="mt-4">Sell stocks</h2>
+        <form class="row g-3 mb-3">
+            <div class="col-auto">
+                <input type="text" value="" id="sell_stock" placeholder="Enter company">
+            </div>
+            
+            <div class="col-auto">
+                <input type="number" value="" id="sell_num" placeholder="Enter number of shares">
+            </div>
+            
+        </form>
+        <button type="submit" class="btn btn-primary mb-2" id="sellButton">Confirm selling</button>
+
+    </body>
+</html>

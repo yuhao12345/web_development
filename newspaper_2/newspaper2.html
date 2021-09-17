@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>newpaper subscribe</title>
+        <link rel="stylesheet" href="newpaper2.css">
+        <script src="newspaper2.js"></script>
+        <!--important, otherwise font of float text looks smaller in mobile screen-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+
+    <body>
+
+        <div class="Box">
+        
+            <div class="header">
+                <img src="maroon.svg">
+            </div>
+            
+            <h1>Subscribe Now</h1>
+            <b>From the Newsroom (billed monthly)</b>
+            <p>Choose how you want to stay on top of what's happening on and off campus.</p>
+
+            
+            <label class="item">
+                <input type="checkbox">
+                Daily News (Print)
+                <span class="price">$10.00</span>
+            </label><br>                
+
+            
+            <label class="item">
+                <input type="checkbox">
+                Daily News (Email)
+                <span class="price">$8.00</span>
+            </label><br>
+
+            
+            <label class="item">
+                <input type="checkbox">
+                Maroon Nightlife (Instant Messages)
+                <span class="price">$5.00</span>
+            </label><br>
+
+            
+            <label class="item">
+                <input type="checkbox">
+                Maroon Real-Time Sports (Instant Messages)
+                <span class="price">$5.00</span>
+            </label><br>
+        
+
+            <hr>
+
+
+            <h2>Special Offer</h2>
+            <p>Wear your favorite news!</p>
+            
+            <label class="item">
+                <input type="checkbox">
+                I Love My Maroon T-Shirt
+                <span class="price">$20.00</span>
+            </label><br>
+
+            <size>
+                <label><input type="radio" onclick="selectOnlyThis(this)" data-size="Small">Small</label>
+
+                <label><input type="radio" onclick="selectOnlyThis(this)" data-size="Medium">Medium</label>
+    
+                <label><input type="radio" onclick="selectOnlyThis(this)" data-size="Large">Large</label>
+    
+                <label><input type="radio" onclick="selectOnlyThis(this)" data-size="X-Large">X-Large</label>
+    
+                <br>
+            </size>
+
+
+            <div class="buttons">
+                <button type="button" class="checkOut">Check Out</button>
+                <button type="reset" class="reset">Clear</button> 
+            </div>
+            
+
+        </div>
+
+    </body>
+
+</html>

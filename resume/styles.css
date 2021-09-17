@@ -1,0 +1,21 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+hr{
+    height:3px;
+    margin:0px;
+    background-color: gray;
+    border: 0px;
+}
+.photo{
+    float:right;
+}
+h2{
+    margin-bottom:0px;
+}

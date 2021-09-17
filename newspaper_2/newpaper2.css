@@ -1,0 +1,61 @@
+body{
+    font-size: 14px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+b{
+    font-size: 18px;
+}
+
+.Box{
+    border-style: solid;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.Box2{
+    border-style: solid;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+h1{
+    text-align: center;
+    margin-top:0.5rem;
+    font-size: 1.5rem;
+}
+
+
+.price{
+    float: right; 
+}
+
+.Box2 .price{
+    font-weight:bold;
+}
+
+hr{
+    border-top: 1px dotted gray;
+
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.order_text{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.indented{
+    margin-left: 0.5rem;
+}
+
+.indented_total{
+    margin-left: 1.5rem;
+    font-weight:bold;
+}
+
+
